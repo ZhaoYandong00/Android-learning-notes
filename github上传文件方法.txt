@@ -1,0 +1,7 @@
+$ cd [盘]:/[文件夹]
+$ git init  //初始化
+$ git remote add origin git@github:[用户名]/[仓库名].git //$ git remote rm origin 如报错，清空
+$ git add 文件名 (上传指定文件)||add .(添加全部文件) //撤销 git reset
+$ git commit -m "" //撤销 git reset --hard HEAD
+$ git pull -u origin master //
+$ git push -u origin master //如报错，先pull
